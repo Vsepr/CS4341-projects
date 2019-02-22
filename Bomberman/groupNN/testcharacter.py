@@ -17,7 +17,11 @@ class TestCharacter(CharacterEntity):
         goal = self.get_exit(wrld)
         start = self.get_my_location(wrld)
 
-        nextMove = self.a_star(wrld, start, goal) # returns (x,y) coordinate of next move
+        # if self.check_monster(start, 2, wrld): # if list empty returns false
+        #     print("fukkkk")
+        # else:
+        #     nextMove = self.a_star(wrld, start, goal) # returns (x,y) coordinate of next move
+        nextMove = self.a_star(wrld, start, goal)  # returns (x,y) coordinate of next move
         print("my start move is:")
         print(start)
         print("my next move is:")
@@ -55,9 +59,6 @@ class TestCharacter(CharacterEntity):
                     self.move(1, -1)
 
                 self.place_bomb()
-                pass
-
-                print('a')
             else:
                 # there is no wall
                 if wrld.bomb_at(nextMove[0], nextMove[1]) or wrld.explosion_at(nextMove[0], nextMove[1]):
@@ -70,8 +71,15 @@ class TestCharacter(CharacterEntity):
         except IndexError:
             pass
 
-    def check_monster(self, start, radius):
-        pass
+    def check_monster(self, start, radius, wrld):
+        monstersList = [] # list of monsters within our radious
+        for x in range(-radius, radius):
+            for y in range(-radius,radius):
+                if wrld.monsters_at(start[0]+x, start[1]+y):
+                    monstersList.append((start[0]+x, start[1]+y))
+        return monstersList
+
+
 
     @staticmethod
     def get_exit(wrld):
@@ -114,8 +122,8 @@ class TestCharacter(CharacterEntity):
                     return x, y
 
     # Determining the heuristic value, being Euclidean Distance
-    @staticmethod
-    def heuristic(start, goal):
+    # @staticmethod
+    def heuristic(self, start, goal, wrld):
         (x1, y1) = start
         (x2, y2) = goal
 
@@ -123,7 +131,11 @@ class TestCharacter(CharacterEntity):
         # We add the squared values, and finding the sqrt is
         # not necessary as it will never effect the outcome
         value = (x2 - x1)**2 + (y2 - y1)**2
-        return value
+        penalty = 0
+        if self.check_monster(start, 2, wrld):
+            penalty = +5000
+
+        return value + penalty
 
     # PARAM [SensedWorld] wrld: wrld grid, used to get boundries
     # PARAM [tuple (int, int)] start: tuple with x and y coordinates of starting position in board
@@ -133,7 +145,7 @@ class TestCharacter(CharacterEntity):
         neighbors = self.get_neighbors(start, wrld)
         neighbors_values = []
         for neighbor in neighbors: # shouldn't this be for neighbor in neighbors: ???s
-            neighbors_values.append((neighbor[0], neighbor[1], self.heuristic(neighbor, goal)))
+            neighbors_values.append((neighbor[0], neighbor[1], self.heuristic(neighbor, goal, wrld)))
         neighbors_values.sort(key=operator.itemgetter(2))
         print(neighbors_values)
 
