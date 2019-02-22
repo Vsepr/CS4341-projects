@@ -79,6 +79,15 @@ class TestCharacter(CharacterEntity):
                     monstersList.append((start[0]+x, start[1]+y))
         return monstersList
 
+    def check_wall(self, start, radius, wrld):
+        wallList = [] # list of monsters within our radious
+        for x in range(-radius, radius):
+            for y in range(-radius,radius):
+                if wrld.wall_at(start[0]+x, start[1]+y):
+                    wallList.append((start[0]+x, start[1]+y))
+        return wallList
+
+
 
 
     @staticmethod
@@ -133,6 +142,8 @@ class TestCharacter(CharacterEntity):
         value = (x2 - x1)**2 + (y2 - y1)**2
         penalty = 0
         if self.check_monster(start, 2, wrld):
+            penalty = +5000
+        if self.check_wall(start,1,wrld):
             penalty = +5000
 
         return value + penalty
