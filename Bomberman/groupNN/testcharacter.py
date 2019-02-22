@@ -29,6 +29,8 @@ class TestCharacter(CharacterEntity):
         dx = nextMove[0] - start[0]
         dy = nextMove[1] - start[1]
         print("my dx is {} and my dy is: {}".format(dx,dy))
+
+
         try:
             if wrld.wall_at(nextMove[0], nextMove[1]):
                 # do stuff with wall
@@ -74,20 +76,22 @@ class TestCharacter(CharacterEntity):
     def check_monster(self, start, radius, wrld):
         monstersList = [] # list of monsters within our radious
         for x in range(-radius, radius):
-            for y in range(-radius,radius):
-                if wrld.monsters_at(start[0]+x, start[1]+y):
-                    monstersList.append((start[0]+x, start[1]+y))
+            if ((start[0] + x >= 0) and (start[0] + x < wrld.width())):
+                for y in range(-radius,radius):
+                    if ((start[1] + y >= 0) and (start[1] + y < wrld.height())):
+                        if wrld.monsters_at(start[0]+x, start[1]+y):
+                            monstersList.append((start[0]+x, start[1]+y))
         return monstersList
 
     def check_wall(self, start, radius, wrld):
         wallList = [] # list of monsters within our radious
         for x in range(-radius, radius):
-            for y in range(-radius,radius):
-                if wrld.wall_at(start[0]+x, start[1]+y):
-                    wallList.append((start[0]+x, start[1]+y))
+            if ((start[0] + x >= 0) and (start[0] + x < wrld.width())):
+                for y in range(-radius,radius):
+                    if ((start[1] + y >= 0) and (start[1] + y < wrld.height())):
+                        if wrld.wall_at(start[0]+x, start[1]+y):
+                            wallList.append((start[0]+x, start[1]+y))
         return wallList
-
-
 
 
     @staticmethod
@@ -141,12 +145,13 @@ class TestCharacter(CharacterEntity):
         # not necessary as it will never effect the outcome
         value = (x2 - x1)**2 + (y2 - y1)**2
         penalty = 0
-        if self.check_monster(start, 2, wrld):
+        if self.check_monster(start, 3, wrld):
             penalty = +5000
-        if self.check_wall(start,1,wrld):
-            penalty = +5000
+        # if self.check_wall(start,2,wrld):
+        #     penalty = +5000
 
         return value + penalty
+        # return value
 
     # PARAM [SensedWorld] wrld: wrld grid, used to get boundries
     # PARAM [tuple (int, int)] start: tuple with x and y coordinates of starting position in board
