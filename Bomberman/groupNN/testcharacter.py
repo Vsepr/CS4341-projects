@@ -22,8 +22,10 @@ class TestCharacter(CharacterEntity):
         dy = next_move[1] - start[1]
 
         monstersNear = self.check_monster(start, wrld) # list of monsters near
+        # newWorld = wrld.next()[0]
 
         try:
+
             if monstersNear:
                 # STATE: MONSTER ( There are a monsters within our range)
                 print("STATE: MONSTER")
@@ -36,17 +38,18 @@ class TestCharacter(CharacterEntity):
                 print("Move: {}, {}".format(dx, dy))
                 self.move(dx, dy)
 
-            elif wrld.wall_at(start[0], start[1] + 1) and not wrld.next()[0].explosion_at(start[0] - 1, start[1] - 1):
-                print("STATE: 1")
-                self.place_bomb()
-                self.move(-1, -1)
-
-            elif wrld.wall_at(*next_move) or wrld.next()[0].explosion_at(*start):
-                print("STATE: 3")
-                self.move(x_dir, y_dir)
-            elif next_move[0] == bomb[0] or next_move[1] == bomb[1] or wrld.explosion_at(*next_move):
-                print("STATE: 4")
-                self.move(0, 0)
+            # elif wrld.wall_at(start[0], start[1] + 1) and not wrld.next()[0].explosion_at(start[0] - 1, start[1] - 1):
+            #     print("STATE: 1")
+            #     self.place_bomb()
+            #     self.move(-1, -1)
+            #
+            # # why is newWorld.explosion taking the start position??
+            # elif wrld.wall_at(*next_move) or wrld.next()[0].explosion_at(*start):
+            #     print("STATE: 3")
+            #     self.move(x_dir, y_dir)
+            # elif next_move[0] == bomb[0] or next_move[1] == bomb[1] or wrld.explosion_at(*next_move):
+            #     print("STATE: 4")
+            #     self.move(0, 0)
             else:
                 print("STATE: 5")
                 self.move(dx, dy)
@@ -55,28 +58,39 @@ class TestCharacter(CharacterEntity):
 
 
     # Becareful of multiple monsters
+    # todo ADD BOUNDRIES TO THIS TO PREVENT ERRORS
     # RETURN [list of (int x, int y)]: coordinate positions of monsters within range
-    @staticmethod
-    def check_monster(start, wrld):
-        dx = 0
-        dy = 0
+    # @staticmethod
+    def check_monster(self, start, wrld):
         monstersNear = [] # list of tuples (int x, int y)
-        for x in range(-4, 4):
-            for y in range(-4, 4):
+        near = []
+        #
+        # for x in range(-3, 4):
+        #     for y in range(-3, 4):
+        #         near.append((x+ start[0], y+start[1]))
+        #
+        # print("Check my monstaaaaaaaaaaa")
+        # print(len(near))
+        #
+        # distance = self.get_monster(wrld)
+        # rangex = start[0] - range[0]
+        # rangey = start[1] - range[1]
+        # print("Distance from monster [{}][{}]".format(rangex, rangey))
+
+        # if distance in near:
+        #     monstersNear.append(distance)
+
+        # if rangex <= 2 and rangex >= -2:
+        #     monstersNear.append((range))
+        # if rangey <= 2 and rangey >= -2:
+        #     monstersNear.append((range))
+
+
+        for x in range(-3, 4):
+            for y in range(-3, 4):
                 if wrld.monsters_at(start[0] + x, start[1] + y):
                     # monster was found
                     monstersNear.append((start[0] + x, start[1] + y))
-                    # dx = start[0] - (start[0] + x)
-                    # dy = start[1] - (start[1] + y)
-                    # if dx < 0:
-                    #     dx = -1
-                    # else:
-                    #     dx = 1
-                    # if dy < 0:
-                    #     dy = -1
-                    # else:
-                    #     dy = 1
-                    # return dx, dy
         return monstersNear
 
     # PARAM [SensedWorld] wrld: wrld grid, used to get boundries
@@ -95,13 +109,15 @@ class TestCharacter(CharacterEntity):
             # todo TO CHECK FOR EXPLOSION IN THE BOARD WE DONT NEED TO GET THE NEXT BOARD
             if wrld.wall_at(*neighbor) or wrld.explosion_at(*neighbor) or newWorld.monsters_at(*neighbor):
             # if wrld.wall_at(*neighbor) or wrld.explosion_at(*neighbor):
-                print("Found wall or explosion")
+            #     print("Found wall or explosion")
+                pass
             elif newWorld.explosion_at(*neighbor):
             # elif wrld.explosion_at(*neighbor):
-                print("Im a a explotion at: ")
-                print(*neighbor)
+            #     print("Im a a explotion at: ")
+                pass
+                # print(*neighbor)
             else:
-                print("Neighbor is not wall or explosion")
+                # print("Neighbor is not wall or explosion")
                 result.append(neighbor)
 
         if not result:
@@ -184,7 +200,7 @@ class TestCharacter(CharacterEntity):
 
     # Determining the heuristic value, being Euclidean Distance
     @staticmethod
-    def heuristic(start, goal):
+    def heuristic(start, goal, wrld):
         (x1, y1) = start
         (x2, y2) = goal
 
@@ -192,7 +208,38 @@ class TestCharacter(CharacterEntity):
         # We add the squared values, and finding the sqrt is
         # not necessary as it will never effect the outcome
         value = (x2 - x1)**2 + (y2 - y1)**2
+
+        # as we get close to exit, prioritize evading walls
+        # if wall within radious substract points
+        # if our six neighbors are empty give a lot of points
+        # each neighbor that is empty gives additional points
+
+        # openSpaces = [] # list of tuples (int x, int y)
+        # # filter all the walls from neighbors and boundries. Calculate all the open spaces and give a reward for each open space
+        # for x in range(-1, 1):
+        #     if (0 <= start[0] + x) and (start[0] + x < wrld.width()):
+        #         for y in range(-1, 1):
+        #             if (0 <= start[1] + y) and (start[1] + y < wrld.height()):
+        #                 if not wrld.wall_at(start[0] + x, start[1] + y):
+        #                     # check for boundries
+        #                     openSpaces.append((start[0] + x, start[1] + y))
+        #
+        #
+        # if start[0] > wrld.width()//2:
+        #     penaltyWidthMultiplier = wrld.width() - start[0] # penalty for being close to side border
+        # else:
+        #     penaltyWidthMultiplier = start[0] # penalty for being close to side border
+        # # if start[1] > wrld.height()/2:
+        # #     penaltyH = wrld.width() - start[1] # penalty for being close to side border
+        # # if wrld.wall_at(start[0] + x, start[1] + y):
+        # #     return 0, 1
+        #
+        # extraPts = len(openSpaces) * 3000
+        # borderPts = penaltyWidthMultiplier * 10
+        #
+        # value = value - extraPts - borderPts
         return value
+
 
     # this a* algorithm picks the *CLOSEST* distance to the goal
     # PARAM [SensedWorld] wrld: wrld grid, used to get boundries
@@ -203,7 +250,7 @@ class TestCharacter(CharacterEntity):
         neighbors = self.get_neighbors(start, wrld)
         neighbors_values = []
         for neighbor in neighbors:
-            neighbors_values.append((neighbor[0], neighbor[1], self.heuristic(neighbor, goal)))
+            neighbors_values.append((neighbor[0], neighbor[1], self.heuristic(neighbor, goal, wrld)))
         neighbors_values.sort(key=operator.itemgetter(2))
         print(neighbors_values)
 
@@ -216,7 +263,7 @@ class TestCharacter(CharacterEntity):
         neighbors_values = []
         for neighbor in possibleMoves:
             # todo change this to accept multiple monsters
-            neighbors_values.append((neighbor[0], neighbor[1], self.heuristic(neighbor, monsterList[0])))
+            neighbors_values.append((neighbor[0], neighbor[1], self.heuristic(neighbor, monsterList[0], wrld)))
         # sort by distance to monster. Its in DECREASING order.
         neighbors_values.sort(key=operator.itemgetter(2))
         print("Monster A* values: ")
