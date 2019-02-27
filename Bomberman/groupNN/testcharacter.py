@@ -37,6 +37,7 @@ class TestCharacter(CharacterEntity):
         try:
             # If there is a monster in a given radius around us:
             if run_from_monster:
+                print("STATE: MONSTER")
                 # STATE: MONSTER ( There are a monsters within our range)
                 # Place bomb and hope it dies
                 self.place_bomb()
@@ -50,11 +51,13 @@ class TestCharacter(CharacterEntity):
                 self.move(dx, dy)
             # If the next best move is a wall:
             elif wrld.wall_at(*next_move):
+                print("STATE: AWAY FROM CORNERS")
                 # Move away from boundaries
                 self.move(x_dir, y_dir)
             # If the next move location is in the line of sight (los) of a bomb, or there is an explosion
             # at the location of the next move and during the next board iteration: CHECK THIS IN TESTING
             elif next_move[0] == bomb[0] or next_move[1] == bomb[1] or wrld.next()[0].explosion_at(*next_move):
+                print("STATE: BOMB / EXPLOTION")
                 # If there is a bomb in the current line of site of the character, and there is not an explosion next
                 # iteration of the board at the location we wish to go to:
                 if bomb[0] == start[0] or bomb[1] == start[1]:
@@ -67,11 +70,18 @@ class TestCharacter(CharacterEntity):
                     self.move(dx, dy)
                 else:
                     self.move(0, 0)
+
+                # todo how does code gets in here if run_from_monster is going to be empty in the bomb case. Shouldnt this case come first??
+                if run_from_monster:
+                    print("I am doing A* away from Bomb")
+                print("THIS IS THE MONSTER I FOUND WHEN IN BOMB STATE: ")
+                print(run_from_monster[0])
                 monster_move_away = self.a_star(wrld, start, run_from_monster[0], -1)
                 dx = monster_move_away[0] - start[0]
                 dy = monster_move_away[1] - start[1]
                 self.move(dx, dy)
             else:
+                print("STATE: A* MODE")
                 self.move(dx, dy)
                 if wrld.wall_at(start[0], start[1] + 1) or wrld.wall_at(start[0], start[1] - 1):
                     self.place_bomb()
@@ -163,6 +173,7 @@ class TestCharacter(CharacterEntity):
                 pass
         # If we are trying to run away:
         else:
+            # todo this seems to be returning walls as possible moves too
             # Loop through neighbors, do not include neighbor locations that will put you against a wall,
             # or an explosion
             for neighbor in neighbors_values:
