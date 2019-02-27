@@ -10,6 +10,8 @@ import operator
 class TestCharacter(CharacterEntity):
     def do(self, wrld):
         # Your code here
+
+        # Initialize some variables that we are going to be using 
         goal = self.get_exit(wrld)
         start = self.get_my_location(wrld)
         bomb = self.get_bomb(wrld)
@@ -23,9 +25,6 @@ class TestCharacter(CharacterEntity):
             pass
         # Monsters are within a range that you should run from
         run_from_monster = self.check_monster(start, wrld, 3)
-
-        # Safe from monsters potentially, safe to place bombs and wait
-        safe_from_monster = self.check_monster(start, wrld, 5)
 
         try:
             if run_from_monster:
