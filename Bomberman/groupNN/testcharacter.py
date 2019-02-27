@@ -193,6 +193,6 @@ class TestCharacter(CharacterEntity):
         for neighbor in neighbors:
             if 0 <= neighbor[0] < wrld.width() and 0 <= neighbor[1] < wrld.height():
                 if not wrld.wall_at(*neighbor) and not wrld.bomb_at(*neighbor) \
-                        and not wrld.next()[0].explosion_at(*neighbor):
+                        and not wrld.next()[0].next()[0].explosion_at(*neighbor):
                     result.append(neighbor)
         return result

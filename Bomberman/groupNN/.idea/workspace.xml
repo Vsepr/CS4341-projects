@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="add0d6ef-015b-471e-b224-2e689eb311c8" name="Default Changelist" comment="Problems with being cornered, beat all variants for 3 seeds but needs to be tested. Probably won't change much">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenario1/variant2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenario1/variant2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenario2/variant5.py" beforeDir="false" afterPath="$PROJECT_DIR$/scenario2/variant5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcharacter.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcharacter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +16,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/groupNN$variant2__1_.coverage" NAME="variant2 (1) Coverage Results" MODIFIED="1551245451793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
+    <SUITE FILE_PATH="coverage/groupNN$variant2__1_.coverage" NAME="variant2 (1) Coverage Results" MODIFIED="1551248530739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario1" />
     <SUITE FILE_PATH="coverage/groupNN$variant1__1_.coverage" NAME="variant1 (1) Coverage Results" MODIFIED="1551245442828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
-    <SUITE FILE_PATH="coverage/groupNN$variant1.coverage" NAME="variant1 Coverage Results" MODIFIED="1551246572634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario1" />
-    <SUITE FILE_PATH="coverage/groupNN$variant4__1_.coverage" NAME="variant4 (1) Coverage Results" MODIFIED="1551246711389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
-    <SUITE FILE_PATH="coverage/groupNN$variant4.coverage" NAME="variant4 Coverage Results" MODIFIED="1551248233388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario1" />
-    <SUITE FILE_PATH="coverage/groupNN$variant3__1_.coverage" NAME="variant3 (1) Coverage Results" MODIFIED="1551246720970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
-    <SUITE FILE_PATH="coverage/groupNN$variant3.coverage" NAME="variant3 Coverage Results" MODIFIED="1551246908305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario1" />
-    <SUITE FILE_PATH="coverage/groupNN$variant5__1_.coverage" NAME="variant5 (1) Coverage Results" MODIFIED="1551246698481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
-    <SUITE FILE_PATH="coverage/groupNN$variant2.coverage" NAME="variant2 Coverage Results" MODIFIED="1551246897292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
-    <SUITE FILE_PATH="coverage/groupNN$variant5.coverage" NAME="variant5 Coverage Results" MODIFIED="1551248216205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
+    <SUITE FILE_PATH="coverage/groupNN$variant1.coverage" NAME="variant1 Coverage Results" MODIFIED="1551248560893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
+    <SUITE FILE_PATH="coverage/groupNN$variant4.coverage" NAME="variant4 Coverage Results" MODIFIED="1551248545787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario1" />
+    <SUITE FILE_PATH="coverage/groupNN$variant4__1_.coverage" NAME="variant4 (1) Coverage Results" MODIFIED="1551248587676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
+    <SUITE FILE_PATH="coverage/groupNN$variant3__1_.coverage" NAME="variant3 (1) Coverage Results" MODIFIED="1551248577571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
+    <SUITE FILE_PATH="coverage/groupNN$variant3.coverage" NAME="variant3 Coverage Results" MODIFIED="1551248538646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario1" />
+    <SUITE FILE_PATH="coverage/groupNN$variant5__1_.coverage" NAME="variant5 (1) Coverage Results" MODIFIED="1551248552141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario1" />
+    <SUITE FILE_PATH="coverage/groupNN$variant2.coverage" NAME="variant2 Coverage Results" MODIFIED="1551248568735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
+    <SUITE FILE_PATH="coverage/groupNN$variant5.coverage" NAME="variant5 Coverage Results" MODIFIED="1551248723783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scenario2" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -91,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/scenario2/variant5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -99,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcharacter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="284">
+              <caret line="169" column="66" selection-start-line="169" selection-start-column="66" selection-end-line="169" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -108,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scenario2/variant4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="440">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -129,13 +130,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scenario1/variant2.py" />
         <option value="$PROJECT_DIR$/scenario1/variant3.py" />
         <option value="$PROJECT_DIR$/scenario1/variant4.py" />
         <option value="$PROJECT_DIR$/scenario1/variant5.py" />
         <option value="$PROJECT_DIR$/scenario2/variant2.py" />
         <option value="$PROJECT_DIR$/scenario2/variant3.py" />
         <option value="$PROJECT_DIR$/scenario2/variant4.py" />
+        <option value="$PROJECT_DIR$/scenario1/variant2.py" />
         <option value="$PROJECT_DIR$/scenario2/variant5.py" />
         <option value="$PROJECT_DIR$/testcharacter.py" />
       </list>
@@ -204,7 +205,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.variant4">
+  <component name="RunManager" selected="Python.variant5">
+    <configuration name="variant1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="groupNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scenario2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scenario2/variant1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="variant2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="groupNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,7 +272,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="variant3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="variant4 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="groupNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,34 +280,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scenario1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scenario2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scenario1/variant3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="variant4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="groupNN" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scenario1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scenario1/variant4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scenario2/variant4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.variant4" />
         <item itemvalue="Python.variant5" />
-        <item itemvalue="Python.variant3" />
-        <item itemvalue="Python.variant2" />
+        <item itemvalue="Python.variant4 (1)" />
         <item itemvalue="Python.variant3 (1)" />
+        <item itemvalue="Python.variant2" />
+        <item itemvalue="Python.variant1" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +337,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550980402219</updated>
       <workItem from="1550980403379" duration="3226000" />
-      <workItem from="1551245115513" duration="3318000" />
+      <workItem from="1551245115513" duration="3564000" />
     </task>
     <task id="LOCAL-00001" summary="Problems with being cornered, beat all variants for 3 seeds but needs to be tested. Probably won't change much">
       <created>1550983610920</created>
@@ -349,7 +350,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6544000" />
+    <option name="totallyTimeSpent" value="6790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenario1/variant2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scenario1/variant4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -449,22 +443,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scenario2/variant4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="440">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenario2/variant5.py">
+    <entry file="file://$PROJECT_DIR$/scenario1/variant2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scenario2/variant5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcharacter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="284">
+          <caret line="169" column="66" selection-start-line="169" selection-start-column="66" selection-end-line="169" selection-end-column="66" />
         </state>
       </provider>
     </entry>
