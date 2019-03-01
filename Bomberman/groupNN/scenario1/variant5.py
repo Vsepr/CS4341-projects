@@ -36,4 +36,35 @@ g.add_character(TestCharacter("me", # name
 ))
 
 # Run!
-g.go()
+# g.go()
+
+counter = 0
+for x in range(10):
+    # Create the game
+    random.seed(x) # TODO Change this if you want different random choices
+    g = Game.fromfile('map.txt')
+    g.add_monster(StupidMonster("monster",  # name
+                                "S",  # avatar
+                                3, 5,  # position
+                                ))
+    g.add_monster(SelfPreservingMonster("monster",  # name
+                                        "A",  # avatar
+                                        3, 13,  # position
+                                        2  # detection range
+                                        ))
+
+    # TODO Add your character
+    g.add_character(TestCharacter("me",  # name
+                                  "C",  # avatar
+                                  0, 0  # position
+                                  ))
+
+    # Run!
+    g.go()
+    for events in g.world.events:
+        if "found the exit" in str(events):
+        # if str(events).contains("found the exit"):
+            print('TRUEAEEEEEEEE MOFOOOOOOOO')
+            counter += 1
+print("We won [{}] amount of times".format(counter))
+

@@ -1,5 +1,6 @@
 # This is necessary to find the main code
 import sys
+
 sys.path.insert(0, '../bomberman')
 # Import necessary stuff
 from entity import CharacterEntity
@@ -85,9 +86,9 @@ class TestCharacter(CharacterEntity):
                 self.move(dx, dy)
                 if wrld.wall_at(start[0], start[1] + 1) or wrld.wall_at(start[0], start[1] - 1):
                     self.place_bomb()
-                # elif wrld.wall_at(start[0]+1, start[1]) or wrld.wall_at(start[0]-1, start[1]):
-                #     self.place_bomb()
-
+                # todo THIS WAS ADDED TO PREVENT BEING STUCK ON WALLS ON THE SIDE
+                elif wrld.wall_at(start[0]+1, start[1]) or wrld.wall_at(start[0]-1, start[1]):
+                    self.place_bomb()
         except (IndexError, TypeError):
             pass
 
@@ -98,7 +99,7 @@ class TestCharacter(CharacterEntity):
         monsters_near = []
         for x in range(-radius, radius + 1):
             for y in range(-radius, radius + 1):
-                if wrld.next()[0].monsters_at (start[0] + x, start[1] + y):
+                if wrld.next()[0].monsters_at(start[0] + x, start[1] + y):
                     # monster was found
                     monsters_near.append((start[0] + x, start[1] + y))
         return monsters_near
@@ -109,9 +110,9 @@ class TestCharacter(CharacterEntity):
     def get_direction(start, wrld):
         x = 1
         y = 1
-        if start[0] > wrld.width()/2:
+        if start[0] > wrld.width() / 2:
             x = -1
-        if start[1] > wrld.height()/2:
+        if start[1] > wrld.height() / 2:
             y = -1
         return x, y
 
@@ -149,7 +150,7 @@ class TestCharacter(CharacterEntity):
     def heuristic(start, goal):
         (x1, y1) = start
         (x2, y2) = goal
-        value = (x2 - x1)**2 + (y2 - y1)**2
+        value = (x2 - x1) ** 2 + (y2 - y1) ** 2
         return value
 
     # A* Algorithm which will be used to determine and return the best move coordinates
@@ -200,8 +201,8 @@ class TestCharacter(CharacterEntity):
     def get_neighbors(start, wrld):
         x = start[0]
         y = start[1]
-        neighbors = [(x+1, y), (x, y-1), (x-1, y), (x, y+1),
-                     (x+1, y+1), (x+1, y-1), (x-1, y+1), (x-1, y-1)]
+        neighbors = [(x + 1, y), (x, y - 1), (x - 1, y), (x, y + 1),
+                     (x + 1, y + 1), (x + 1, y - 1), (x - 1, y + 1), (x - 1, y - 1)]
         result = []
         # check that neighbors are inside wrld bounds
         for neighbor in neighbors:
