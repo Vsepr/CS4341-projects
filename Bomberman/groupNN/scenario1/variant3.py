@@ -33,7 +33,7 @@ g.add_character(TestCharacter("me", # name
 
 
 counter = 0
-for x in range(10):
+for x in range(100):
     # Create the game
     random.seed(x) # TODO Change this if you want different random choices
     g = Game.fromfile('map.txt')
