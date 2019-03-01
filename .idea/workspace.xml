@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="041216b6-5bf6-4ab8-82c2-e3db0a5aaef8" name="Default Changelist" comment="added comments">
-      <change afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario2Character.py" afterDir="false" />
+    <list default="true" id="041216b6-5bf6-4ab8-82c2-e3db0a5aaef8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/bomberman/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/bomberman/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bomberman/groupNN/testcharacter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bomberman/groupNN/testcharacter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,24 +17,36 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CS4341_projects$testcharacter.coverage" NAME="testcharacter Coverage Results" MODIFIED="1550896940082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN" />
-    <SUITE FILE_PATH="coverage/CS4341_projects$variant2__1_.coverage" NAME="variant2 (1) Coverage Results" MODIFIED="1551311016238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
-    <SUITE FILE_PATH="coverage/CS4341_projects$variant5__1_.coverage" NAME="variant5 (1) Coverage Results" MODIFIED="1551472873696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
-    <SUITE FILE_PATH="coverage/CS4341_projects$variant4.coverage" NAME="variant4 Coverage Results" MODIFIED="1551466707595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
+    <SUITE FILE_PATH="coverage/CS4341_projects$variant2__1_.coverage" NAME="variant2 (1) Coverage Results" MODIFIED="1551482061260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
+    <SUITE FILE_PATH="coverage/CS4341_projects$variant5__1_.coverage" NAME="variant5 (1) Coverage Results" MODIFIED="1551478967757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
+    <SUITE FILE_PATH="coverage/CS4341_projects$variant4.coverage" NAME="variant4 Coverage Results" MODIFIED="1551481972690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
     <SUITE FILE_PATH="coverage/CS4341_projects$variant1__1_.coverage" NAME="variant1 (1) Coverage Results" MODIFIED="1551310880929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
-    <SUITE FILE_PATH="coverage/CS4341_projects$variant2.coverage" NAME="variant2 Coverage Results" MODIFIED="1551303348830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
-    <SUITE FILE_PATH="coverage/CS4341_projects$variant5.coverage" NAME="variant5 Coverage Results" MODIFIED="1551466481790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
+    <SUITE FILE_PATH="coverage/CS4341_projects$variant2.coverage" NAME="variant2 Coverage Results" MODIFIED="1551479408617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
+    <SUITE FILE_PATH="coverage/CS4341_projects$variant5.coverage" NAME="variant5 Coverage Results" MODIFIED="1551483577425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
     <SUITE FILE_PATH="coverage/CS4341_projects$variant4__1_.coverage" NAME="variant4 (1) Coverage Results" MODIFIED="1551473134419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
-    <SUITE FILE_PATH="coverage/CS4341_projects$variant3__1_.coverage" NAME="variant3 (1) Coverage Results" MODIFIED="1551472717485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
-    <SUITE FILE_PATH="coverage/CS4341_projects$variant3.coverage" NAME="variant3 Coverage Results" MODIFIED="1551472939682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
+    <SUITE FILE_PATH="coverage/CS4341_projects$variant3.coverage" NAME="variant3 Coverage Results" MODIFIED="1551478499435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
+    <SUITE FILE_PATH="coverage/CS4341_projects$variant3__1_.coverage" NAME="variant3 (1) Coverage Results" MODIFIED="1551481994082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
     <SUITE FILE_PATH="coverage/CS4341_projects$variant1.coverage" NAME="variant1 Coverage Results" MODIFIED="1551303048672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="289">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding>
+                <marker date="1551483103004" expanded="true" signature="356:395" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,53 +54,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/testcharacter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2Character.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="88" column="81" selection-start-line="88" selection-start-column="81" selection-end-line="88" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="59" lean-forward="true" selection-start-line="34" selection-end-line="59" />
+            <state relative-caret-position="1496">
+              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant4.py">
+        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2Character.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="67" lean-forward="true" selection-start-line="43" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -106,24 +104,6 @@
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -158,21 +138,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant2.py" />
-        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py" />
-        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py" />
-        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py" />
-        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py" />
         <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2Character.py" />
-        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant3.py" />
         <option value="$PROJECT_DIR$/Bomberman/bomberman/game.py" />
-        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py" />
         <option value="$PROJECT_DIR$/Bomberman/groupNN/testcharacter.py" />
         <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant4.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant3.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant2.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant1.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py" />
+        <option value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="331" />
     <option name="y" value="3" />
     <option name="width" value="1272" />
@@ -280,7 +261,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.variant4 (1)">
+  <component name="RunManager" selected="Python.variant5">
+    <configuration name="variant2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS4341-projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="variant2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CS4341-projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="variant3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS4341-projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,50 +320,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="variant3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS4341-projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="variant4 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CS4341-projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,7 +350,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="variant5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="variant5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CS4341-projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -377,12 +358,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bomberman/groupNN/scenario2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.variant4 (1)" />
-        <item itemvalue="Python.variant3" />
-        <item itemvalue="Python.variant5 (1)" />
+        <item itemvalue="Python.variant5" />
+        <item itemvalue="Python.variant2 (1)" />
         <item itemvalue="Python.variant3 (1)" />
         <item itemvalue="Python.variant4" />
+        <item itemvalue="Python.variant2" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +408,7 @@
       <workItem from="1551310796396" duration="923000" />
       <workItem from="1551422581157" duration="263000" />
       <workItem from="1551466391050" duration="513000" />
-      <workItem from="1551468625935" duration="1653000" />
+      <workItem from="1551468625935" duration="7603000" />
     </task>
     <task id="LOCAL-00001" summary="removed excess method">
       <created>1550904881143</created>
@@ -443,22 +424,36 @@
       <option name="project" value="LOCAL" />
       <updated>1551307850886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Branch to test variants by automation">
+      <created>1551473220748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551473220748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Variant 5 scenario 1, is testable">
+      <created>1551479694482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551479694482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29491000" />
+    <option name="totallyTimeSpent" value="35441000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="3" width="1272" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15181518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.4427481" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3563748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984733" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,29 +470,6 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14933993" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.2778626" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984733" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32824427" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.2857143" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32385787" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3320251" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -505,7 +477,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed excess method" />
     <MESSAGE value="added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added comments" />
+    <MESSAGE value="Branch to test variants by automation" />
+    <MESSAGE value="Variant 5 scenario 1, is testable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variant 5 scenario 1, is testable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,44 +533,6 @@
     <entry file="file://$PROJECT_DIR$/Bomberman/bomberman/entity.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2Character.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="88" column="81" selection-start-line="88" selection-start-column="81" selection-end-line="88" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -606,8 +542,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="251">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="58" lean-forward="true" selection-start-line="33" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -621,31 +571,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant5.py">
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="337">
           <caret line="59" lean-forward="true" selection-start-line="34" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="67" lean-forward="true" selection-start-line="43" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/testcharacter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state relative-caret-position="1496">
+          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario1/variant4.py">
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2/variant5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        <state relative-caret-position="289">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <marker date="1551483103004" expanded="true" signature="356:395" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bomberman/groupNN/scenario2Character.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
